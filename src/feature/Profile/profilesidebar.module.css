@@ -1,0 +1,27 @@
+.profile_sidebar {
+  padding: 1rem;
+  padding-top: 2rem;
+  width: 100%;
+  border-radius: 2%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.profile {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+.profile span {
+  padding-left: 0.75rem;
+  display: none;
+}
+.red_color{
+    color: red;
+}
+@media screen and (min-width: 800px) {
+  .profile span {
+    display: block;
+  }
+}

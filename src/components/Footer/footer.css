@@ -1,0 +1,36 @@
+.footer_section {
+  color: #ffffff;
+  background: #000;
+}
+.footer_section .copyright_info {
+  display: grid;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #9ca3af;
+}
+.footer_section .copyright_info div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .footer_section .copyright_info {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .footer_section .copyright_info div {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer_section .copyright_info {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

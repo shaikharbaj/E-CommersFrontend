@@ -1,0 +1,95 @@
+.image_upload_section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.image_upload_section .profile_img {
+  object-fit: cover;
+  border-radius: 9999px;
+  width: 150px;
+  height: 150px;
+  border-color: 3px;
+  border-color: #3ad132;
+}
+
+.camera_icon {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: #e3e9ee;
+  bottom: 5px;
+  right: 5px;
+}
+.profile_info_section {
+  display: block;
+  padding-bottom: 0.75rem;
+  width: 100%;
+}
+.fullName {
+  width: 100%;
+}
+.fullname_label {
+  padding-bottom: 0.5rem;
+  display: block;
+}
+/* !w-[95%] mb-4 800px:mb-0 */
+.fullname_input {
+  padding: 0.25rem;
+  border-width: 1px;
+  width: 100%;
+  border-radius: 5px;
+  width: 95% !important;
+  margin-bottom: 1rem;
+}
+.fullName input{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.fullName input:focus{
+  outline: none;
+}
+.email {
+  padding: 0.25rem;
+  border-width: 1px;
+  width: 100%;
+  border-radius: 5px;
+  width: 95% !important;
+  margin-bottom: 0.25rem;
+}
+.profile_update_btn {
+  margin-top: 2rem;
+  border-width: 1px;
+  text-align: center;
+  cursor: pointer;
+  width: 47.4%;
+  height: 36px;
+  background-color: red;
+  border-color: red;
+  color: white;
+  font-weight: 400;
+}
+.profile_container{
+  width: 100%;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media screen and (min-width: 800px) {
+  .profile_info_section {
+    display: flex;
+  }
+  .fullName {
+    width: 50%;
+  }
+  .email {
+    margin-bottom: 0;
+  }
+  .fullname_input {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+}

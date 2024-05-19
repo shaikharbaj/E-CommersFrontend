@@ -1,0 +1,221 @@
+/* .auth{
+            height: calc(100vh - 70px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(215, 209, 209, 0.1);
+}
+.auth form{
+        background-color: #fff;
+}
+.i_button{
+         position: absolute;
+         right: 5px;
+         top: 45%;
+         height: 100%; 
+         z-index: 10000;
+}
+.avatar{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+
+}
+.round{
+     display: inline-block;
+     background-color: red;
+}
+.error{
+        color: red;
+} */
+
+.auth_container {
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+.auth_container .heading_container h2 {
+  margin-top: 1.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+  text-align: center;
+  color: #111827;
+}
+
+.form_container {
+  margin-top: 2rem;
+  width: 93.33%;
+  margin: auto;
+}
+.form_subcontainer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.form_container .form_subcontainer form {
+  margin-top: 1.5rem;
+}
+.form_container .form_subcontainer form .label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #374151;
+}
+.form_container .form_subcontainer form .input_type {
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  width: 100%;
+  appearance: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.password_container .i_icon {
+  position: absolute;
+  top: 6%;
+  right: 2%;
+  font-size: 35px;
+}
+.auth_submit_btn button {
+  display: flex;
+  position: relative;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border-color: transparent;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #2563eb;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+.auth_submit_btn button:hover {
+  background-color: #1d4ed8;
+}
+.alredy_have_acc {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.alredy_have_acc h4 {
+  font-size: 15px;
+}
+.alredy_have_acc a {
+  padding-left: 0.5rem;
+  color: #2563eb;
+}
+.avatar_container {
+}
+.avatar_container .avatar_container_label {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #374151;
+}
+.avatar_container .avatar_container_div {
+  display: flex;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+.avatar_container .avatar_container_div .avatar_container_span {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 9999px;
+  width: 2rem;
+  height: 2rem;
+}
+.avatar_container .avatar_container_div .avatar_container_span .img_preview {
+  object-fit: cover;
+  border-radius: 9999px;
+  width: 100%;
+  height: 100%;
+}
+.avatar_container .avatar_container_div .avatar_container_span i {
+  font-size: 2rem;
+}
+.avatar_container .avatar_container_div .file_input_label {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #374151;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.avatar_container .avatar_container_div .file_input_label .file_input_input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media screen and (min-width: 640px) {
+  .auth_container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .heading_container {
+    width: 100%;
+    max-width: 28rem;
+    margin: auto;
+  }
+  .form_container {
+    width: 100%;
+    max-width: 28rem;
+    margin: auto;
+  }
+  .form_subcontainer {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 0.5rem;
+  }
+  .form_container .form_subcontainer form input {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .auth_container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

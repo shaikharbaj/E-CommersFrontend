@@ -1,0 +1,22 @@
+.spocered_container {
+  display: none;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.spocered_sub_container{
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+@media (min-width: 640px) {
+  .spocered_container {
+    display: block;
+  }
+}

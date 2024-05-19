@@ -1,0 +1,47 @@
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 91.66667%;
+  margin: auto;
+}
+.heading {
+  margin-bottom: 2rem;
+  font-size: 1.875rem;
+  margin-top: 1rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.faq_wrapper {
+  margin: auto 1rem;
+}
+.faq {
+  padding-bottom: 1rem;
+  border-bottom-width: 1px;
+  border-color: #e5e7eb;
+}
+.faq_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.faq_question {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: #111827;
+}
+.svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #6b7280;
+}
+.answer {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #6b7280;
+}

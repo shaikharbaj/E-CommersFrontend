@@ -1,0 +1,70 @@
+.container{
+    display: flex; 
+justify-content: space-between; 
+align-items: flex-start; 
+width: 100%; 
+}
+.sidebarWrapper{
+    width: 80px;
+}
+.dashboardHeader {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  height: 80px;
+}
+.dashboardNav {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.navlink {
+  display: none;
+}
+.navIcon {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  cursor: pointer;
+}
+.dashboardprofile {
+  object-fit: cover;
+  border-radius: 9999px;
+  width: 50px;
+  height: 50px;
+}
+.navLogo{
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 0;
+}
+@media screen and (min-width: 800px) {
+  .navlink {
+    display: block;
+  }
+  .sidebarWrapper{
+      width: 330px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+    .navLogo{
+        font-weight: bold;
+        font-size: 20px;
+  }
+  .dashboardprofile {
+    object-fit: cover;
+    border-radius: 9999px;
+    width: 30px;
+    height: 30px;
+  }
+  }

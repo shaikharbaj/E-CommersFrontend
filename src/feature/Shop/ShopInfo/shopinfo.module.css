@@ -1,0 +1,94 @@
+.Sp_container {
+  background-color: #f5f5f5;
+  width: 91.66667%;
+  margin: auto;
+}
+.Sp_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.Sp_shopinfowrapper {
+  overflow-y: scroll;
+  position: sticky;
+  left: 0;
+  top: 2.5rem;
+  z-index: 10;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  width: 25%;
+  background: #fff;
+  height: 90vh;
+  padding-left: 0.6rem;
+}
+.Sp_profiledatawrapper {
+  width: 72%;
+  border-radius: 4px;
+}
+.profile_wrapper {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  width: 100%;
+}
+.img_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.img {
+  object-fit: cover;
+  border-radius: 9999px;
+  width: 150px;
+  height: 150px;
+}
+.shopname {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.shop_description {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #000000a6;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.address {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.address h5 {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+.address h4 {
+  color: #000000a6;
+  font-size: 16px;
+}
+.isOwner {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.button {
+  display: flex;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  cursor: pointer;
+  width: 100% !important;
+  height: 42px !important;
+  border-radius: 5px !important;
+}
+.button span {
+  color: white;
+}

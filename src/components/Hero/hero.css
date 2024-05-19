@@ -1,0 +1,74 @@
+.hero_section {
+  background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*l9jKAGAU0bEJqpRS");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hero_section .subsection {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero_section .subsection h1 {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.hero_section .subsection p {
+  padding-top: 1.25rem;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(195, 188, 188);
+}
+.hero_section .subsection a {
+  display: inline-block;
+}
+.hero_section .button {
+  display: flex;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.75rem;
+  background-color: #000000;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+.hero_section .button span {
+  color: #fff;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 800px) {
+  .hero_section {
+    height: 80vh;
+  }
+  .hero_section .subsection {
+    width: 60%;
+    margin: auto;
+  }
+  .hero_section .subsection h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero_section .subsection h1 {
+    font-size: 25px;
+  }
+  .hero_section .subsection p {
+    padding-top: 0.2rem;
+    font-size: 16px;
+  }
+}

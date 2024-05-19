@@ -1,0 +1,44 @@
+.section {
+  width: 91.66667%;
+  padding: 1rem;
+  margin: auto;
+}
+.heading {
+  margin-bottom: 1.25rem;
+  border-bottom: 1px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.suggested_product {
+  display: grid;
+  margin-bottom: 3rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen and (min-width: 556px) {
+  .suggested_product {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    text-align: start;
+  }
+  .suggested_product {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (min-width: 1024px) {
+  .suggested_product {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .suggested_product {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}

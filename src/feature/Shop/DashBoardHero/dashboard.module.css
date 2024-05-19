@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  padding: 2rem;
+}
+.overview {
+  padding-bottom: 0.5rem;
+  font-size: 22px;
+}
+.wrapper {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.herocard {
+  padding: 1.25rem 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  min-height: 20vh;
+}
+.productTitle{
+  font-size: 18px;
+  line-height: 1.25rem;
+  color: #00000085;
+  font-weight: 400;
+}
+.normalFlex{
+       display: flex;
+       align-items: center;
+}
+.count {
+  padding-top: 0.5rem;
+  padding-left: 36px;
+  font-size: 22px;
+}
+.cardname {
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+  color: #077f9c;
+}
+.icon{
+    margin-right: 0.5rem; 
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    display: flex;
+  }
+  .herocard {
+    width: 30%;
+  }
+}
